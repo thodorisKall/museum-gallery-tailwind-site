@@ -14,6 +14,9 @@ module.exports = {
         beigeMedium: "#b5a38d",
         brown: "#342415",
       },
+      width: {
+        "fit-content": "fit-content",
+      },
     },
   },
   plugins: [],
