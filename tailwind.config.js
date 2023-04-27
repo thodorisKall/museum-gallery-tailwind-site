@@ -12,7 +12,7 @@ module.exports = {
         beigeLight: "#e0d6c2",
         pink: "#976c54",
         beigeMedium: "#b5a38d",
-        brown: "#342415",
+        beigeDark: "#342415",
       },
       width: {
         "fit-content": "fit-content",
