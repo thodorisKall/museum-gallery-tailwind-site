@@ -14,21 +14,22 @@
   <body class="bg-black p-8">
     <!-- Nav -->
     <nav
-      class="p-0.5 border-solid border-2 border-white rounded-3xl text-white flex items-center justify-between"
+      class=" p-0.5 border-solid border-2 border-white rounded-3xl text-white flex items-center md:justify-between lg:justify-normal lg:items-stretch"
     >
       <div
-        class="flex items-center justify-center bg-gray-400 px-14 rounded-3xl w-3/4"
+        class="flex items-center justify-center bg-gray-400 px-14 rounded-3xl w-3/4 lg:w-1/4"
       >
         <img class="h-10 mr-2" src="./img/museum-icon.png" alt="" />
         <h3>Art & History</h3>
+        
       </div>
-      <div class="sm:hidden lg:block">
-        <p><a href="">Collections</a></p>
-        <p><a href="">Our Mission</a></p>
-        <p><a href="">Events</a></p>
+      <div class="sm:hidden lg:flex lg:justify-around  lg:w-3/8 ">
+        <p class="text-black font-semibold bg-beigeLight  rounded-3xl px-8 "><a href="">Collections</a></p>
+        <p class="border-2 border-white rounded-3xl px-8"><a href="">Our Mission</a></p>
+        <p class=" border-2 border-white rounded-3xl px-8"><a href="">Events</a></p>
       </div>
-      <div class="sm:hidden lg:block">
-        <h3>Contact Now</h3>
+      <div class="sm:hidden lg:block ml-auto border-2 border-white rounded-3xl lg">
+        <h3 class="px-6">Contact Now</h3>
       </div>
       <div
         class="lg:hidden rounded-3xl border-solid border-2 border-white p-2 px-4 w-1/4 text-center"
@@ -42,7 +43,7 @@
         <div class="bg-beigeLight my-4 rounded-3xl px-4 py-8 ">
           <div>
             <h3
-              class="px-2 mb-4 border-2 border-black w-fit-content px-1 rounded-3xl uppercase"
+              class="px-2 mb-4 border-2 border-black w-fit-content rounded-3xl uppercase"
             >
               Louvre Museum, Paris, France
             </h3>
