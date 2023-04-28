@@ -14,21 +14,28 @@
   <body class="bg-black p-8">
     <!-- Nav -->
     <nav
-      class=" p-0.5 border-solid border-2 border-white rounded-3xl text-white flex items-center md:justify-between lg:justify-normal lg:items-stretch"
+      class="p-0.5 border-solid border-2 border-white rounded-3xl text-white flex items-center md:justify-between lg:justify-normal lg:items-stretch"
     >
       <div
         class="flex items-center justify-center bg-gray-400 px-14 rounded-3xl w-3/4 lg:w-1/4"
       >
         <img class="h-10 mr-2" src="./img/museum-icon.png" alt="" />
         <h3>Art & History</h3>
-        
       </div>
-      <div class="sm:hidden lg:flex lg:justify-around  lg:w-3/8 ">
-        <p class="text-black font-semibold bg-beigeLight  rounded-3xl px-8 "><a href="">Collections</a></p>
-        <p class="border-2 border-white rounded-3xl px-8"><a href="">Our Mission</a></p>
-        <p class=" border-2 border-white rounded-3xl px-8"><a href="">Events</a></p>
+      <div class="hidden">
+        <p class="text-black font-semibold bg-beigeLight rounded-3xl px-8">
+          <a href="">Collections</a>
+        </p>
+        <p class="border-2 border-white rounded-3xl px-8">
+          <a href="">Our Mission</a>
+        </p>
+        <p class="border-2 border-white rounded-3xl px-8">
+          <a href="">Events</a>
+        </p>
       </div>
-      <div class="sm:hidden lg:block ml-auto border-2 border-white rounded-3xl lg">
+      <div
+        class="sm:hidden lg:block ml-auto border-2 border-white rounded-3xl lg"
+      >
         <h3 class="px-6">Contact Now</h3>
       </div>
       <div
@@ -38,9 +45,14 @@
       </div>
     </nav>
     <main>
-      <div class="paintings md:grid grid-cols-2 gap-x-4"">
+      <div
+        class="md:grid md:grid-cols-2 gap-x-4 lg:grid lg:grid-cols-3 lg:grid-rows-2"
+      >
         <!-- container 1 -->
-        <div class="bg-beigeLight my-4 rounded-3xl px-4 py-8 ">
+        <div
+          class="bg-beigeLight my-4 rounded-3xl px-4 py-8 md:col-start-1 md:col-span-1 md:row-start-1 md:row-span-1 lg:col-start-1 lg:col-span-1 lg:row-start-1 lg:row-span-2"
+        >
+          <!-- text -->
           <div>
             <h3
               class="px-2 mb-4 border-2 border-black w-fit-content rounded-3xl uppercase"
@@ -56,6 +68,7 @@
               Lisa has become one of the most recognized artworks in the world.
             </p>
           </div>
+          <!-- image -->
           <div class="rounded-3xl overflow-hidden w-fit-content mb-8">
             <img src="./img/mona-lisa.jpg" alt="" />
           </div>
@@ -81,7 +94,9 @@
         </div>
 
         <!-- container 2# -->
-        <div class="bg-beigeOil my-4 rounded-3xl px-4 py-8 col-start-1 col-span-2 row-start-1 row-span-1">
+        <div
+          class="bg-beigeOil my-4 rounded-3xl px-4 py-8 md:col-start-1 md:col-span-2 md:row-start-1 md:row-span-1 lg:col-start-2 lg:col-span-2 lg:row-start-1 lg:row-span-1"
+        >
           <div>
             <h3
               class="px-2 mb-4 border-2 border-black w-fit-content px-1 rounded-3xl uppercase"
@@ -122,7 +137,9 @@
         </div>
 
         <!-- container 3# -->
-        <div class="bg-pink my-4 rounded-3xl px-4 py-8 col-start-1 col-span-2 row-start-2 row-span-1">
+        <div
+          class="bg-pink my-4 rounded-3xl px-4 py-8 md:col-start-1 md:col-span-2 md:row-start-2 md:row-span-1 lg:col-start-2 lg:col-span-1 lg:row-start-2 lg:row-span-1"
+        >
           <div>
             <h3
               class="px-2 mb-4 border-2 border-black w-fit-content px-1 rounded-3xl uppercase"
@@ -165,7 +182,7 @@
 
         <!-- container 4# -->
         <div
-          class="bg-beigeLight my-4 rounded-3xl px-4 py-8 "
+          class="bg-beigeLight my-4 rounded-3xl px-4 py-8 lg:col-start-3 lg:col-span-1 lg:row-start-2 lg:row-span-1"
         >
           <div>
             <h3

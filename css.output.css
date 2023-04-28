@@ -874,6 +874,10 @@ video {
     display: block;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:grid {
     display: grid;
   }
@@ -900,5 +904,9 @@ video {
 
   .lg\:justify-normal {
     justify-content: normal;
+  }
+
+  .lg\:justify-around {
+    justify-content: space-around;
   }
 }
