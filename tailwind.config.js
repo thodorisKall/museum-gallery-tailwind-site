@@ -17,6 +17,16 @@ module.exports = {
       width: {
         "fit-content": "fit-content",
       },
+      height: {
+        c10: "10%",
+        c20: "20%",
+        c30: "30%",
+        c50: "50%",
+        c70: "70%",
+        c80: "80%",
+        c90: "90%",
+        c100: "100%",
+      },
     },
   },
   plugins: [],
