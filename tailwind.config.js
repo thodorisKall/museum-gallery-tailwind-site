@@ -12,7 +12,7 @@ module.exports = {
         beigeLight: "#e0d6c2",
         pink: "#976c54",
         beigeMedium: "#b5a38d",
-        beigeDark: "#342415",
+        dark: "#342415",
       },
       width: {
         "fit-content": "fit-content",
@@ -26,6 +26,12 @@ module.exports = {
         c80: "80%",
         c90: "90%",
         c100: "100%",
+      },
+      fontWeight: {
+        semibold: "600",
+        bold: "700",
+        extrabold: "800",
+        black: "900",
       },
     },
   },
