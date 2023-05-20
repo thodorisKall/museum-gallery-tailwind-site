@@ -4,9 +4,13 @@
 
 The goal of this project is to create a visually appealing and responsive website for the "Arts and History" museum, showcasing four exquisite paintings from around the world. The website aims to provide an engaging and immersive experience for users across various screen sizes and devices.
 
-## 2. Overview
+## 2. Project Summary
 
-This project is a practice ground for responsive design and working with ready-made design templates using Tailwind CSS. It demonstrates the seamless integration of modern front-end technologies to create a user-friendly and aesthetically pleasing website.
+This project, a responsive website for the "Arts and History" museum, is built using Tailwind CSS and focuses on adaptive design for seamless browsing on any device. It stands as a practical application of responsive design techniques and modern front-end tech integration.
+
+Explore various art styles on your preferred device here: [Arts and History Museum](https://thodoriskall.github.io/museum-gallery-tailwind-site/)
+
+More about the project's purpose, tech stack, and future plans are detailed in the following sections.
 
 ## 3. Description
 
